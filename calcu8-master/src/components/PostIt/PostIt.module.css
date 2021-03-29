@@ -1,0 +1,24 @@
+.postIts{
+  height: 100px;
+  width: 100px;
+  background-color: #49b692;
+  border-bottom: 5px solid #327e64;
+  left: 700px;
+  top: 110px;
+  margin: 0.3rem;
+} 
+.postIt{
+  height: 100px;
+  width: 100px;
+  background-color: #49b692;
+  border: solid 2px #357c65;
+  box-shadow: 20px 38px 34px -26px hsla(0, 0%, 0%, 0.2);
+  border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+
+
+}
+
+.postWrapper{
+  display: inline-flex;
+  margin-top: 10px;
+}

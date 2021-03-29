@@ -1,0 +1,75 @@
+* {
+box-sizing: border-box;
+}
+
+.wrapper{
+	display: wrap;
+	height: 266.5px;
+}
+	
+
+.container{
+	margin: 0 auto;
+	padding: 50px 0;
+	height: 240px;
+	width: 225px;
+    border:dashed 3px rgb(110, 109, 107);
+    border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+    background: -webkit-linear-gradient(top left, #50a3a2 0%, #53e3a6 100%)
+    /* background: -webkit-linear-gradient(top left, #282c34 0%, #434a57 100%); */
+	
+}
+	
+.welcome{
+		font-size: 18px;
+        font-weight: 100;
+		font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+		margin: 0 auto 10px auto;
+		text-align: center;
+	}
+
+.holder {
+	padding: 20px 0;
+	position: relative;
+	z-index: 2;
+}
+
+	.entry {
+        border:dashed 2px rgb(110, 109, 107);
+        border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+        font-family: 'Patrick Hand SC', cursive;
+		width: 150px;
+		padding: 10px 10px;
+		margin: 0 auto 10px auto;
+		display: block;
+		text-align: center;
+		font-size: 15px;
+        font-weight: 300;
+    }
+		
+		
+	.entry:focus{
+			background-color: white;
+			color: #53e3a6;
+		}
+	
+	
+	.login{
+		appearance: none;
+		outline: 0;
+		background-color:  rgb(110, 109, 107);
+		border: 0;
+		margin: auto 35px auto;
+		color: #53e3a6;
+		border-radius: 3px;
+		width: 150px;
+		height: 30px;
+		cursor: pointer;
+        font-size: 15px;
+		font-family: 'Patrick Hand SC', cursive;
+		
+    }
+		
+		.login:hover{
+			background-color: white;
+		}

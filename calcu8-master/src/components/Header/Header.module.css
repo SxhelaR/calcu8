@@ -1,0 +1,25 @@
+.title {
+  font-size: 15px;
+  font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+    
+      color: rgb(110, 109, 107);
+    letter-spacing: .1em;
+    text-shadow: 
+      0 -1px 0 rgb(110, 109, 107), 
+      0 1px 0 #55d6aa, 
+      0 2px 0 #49b692, 
+      0 3px 0 #36886d, 
+      0 4px 0 #327e64, 
+      0 5px 0 #215544, 
+      0 6px 0  #1a4235, 
+      0 7px 0 #112c23, 
+      0 8px 0 #0e241c, 
+      0 9px 0 #102a21, 
+      0 10px 0 #0d221b, 
+      0 11px 0 #0c1f18, 
+      0 12px 0 #091813, 
+      0 13px 0 #0a1a14, 
+      0 14px 0 #0c1d17, 
+      0 15px 0 #0b1f18, 
+      0 22px 30px ;
+}

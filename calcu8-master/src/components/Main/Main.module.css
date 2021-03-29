@@ -1,0 +1,48 @@
+.wrapper {
+    background-color: #282c34;
+    display: grid;
+    grid-gap: 1.0px;
+    grid-template-areas:
+        "header  header  header"
+        "sidebar siderbar content"
+        "footer  footer  footer";
+}
+
+
+.sidebar {
+    grid-area: sidebar;
+    padding-left: 15px;
+    margin-top: -12.5px;
+}
+
+.content {
+    grid-area: content;
+
+}
+
+
+.header {
+    grid-area: header;
+    margin-top: -23px;
+}
+
+.footer {
+    grid-area: footer;
+}
+
+.subheading {
+    font-family: "Patrick Hand SC",
+        cursive;
+    color: rgb(184, 182, 178);
+    text-transform: lowercase;
+    margin: 0;
+
+}
+
+.edit {
+    font-family: "Patrick Hand SC",
+        cursive;
+    color: rgb(184, 182, 178);
+    font-size: 9px;
+    margin: 0;
+}
